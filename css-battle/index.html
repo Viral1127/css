@@ -4,20 +4,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="header">
         <h1 class="header">WELCOME TO CSS BATTLE</h1>
     </div>
-    <div class="card-title">
+    <div class="card-title" data-aos="fade-right">
         <h1>Task to Create Cards</h1>
         <ul>
-            <li><h3>On complition of one card You will get 4 Points</h3></li>
-            <li><h3>Click on video to download assets</h3></li>
+            <li>On complition of one card You will get 4 Points</li>
+            <li>Click on video to download assets</li>
         </ul>
     </div>
     <hr>
-    <div class="grid">
+    <div class="grid" data-aos="fade-up"  data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
         <div class="grid-item">
             <a href="./Assets/Cards/card1-asset.zip" download>
                 <video autoplay loop muted play-inline src="./Assets/Cards/videos/card1.mp4"></video>
@@ -134,10 +136,99 @@
                  <span style="font-size: larger;">#E5AE8A</span>
              </div>
         </div>
-
-
     </div>
-    
-    
+    <br>
+    <br>
+    <hr>
+    <div class="Component-title" data-aos="fade-right"  data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
+        <h1>Task to Create Components</h1>
+        <ul>
+            <li>On complition of one Component You will get 4 Points</li>
+            <li>Click on below link to download assets</li>
+        </ul>
+        <a href="./Assets/Components/assets.zip" download class="download">Download assets</a>
+    </div>
+    <div class="grid-component">
+        <div class="grid-item" data-aos="fade-right"  data-aos-offset="320"
+        data-aos-easing="ease-in-sine">
+            <h1>Animated ToolTip </h1>
+            <video autoplay loop muted play-inline src="./Assets/Components/tooltip.mov"></video>
+        </div>
+        <div class="grid-item" data-aos="fade-left"  data-aos-offset="320"
+        data-aos-easing="ease-in-sine">
+            <h2>Image carosuel transition (* free to use image as your choice)</h2>
+            <video autoplay loop muted play-inline src="./Assets/Components/image-carasouel.mp4"></video>
+        </div>
+        <div class="grid-item" data-aos="fade-right"  data-aos-offset="340"
+        data-aos-easing="ease-in-sine">
+            <h1>Direction Aware Navbar </h1>
+            <video autoplay loop muted play-inline src="./Assets/Components/navbar.mov"></video>
+        </div>
+        <div class="grid-item" data-aos="fade-left"  data-aos-offset="340"
+        data-aos-easing="ease-in-sine">
+            <h1>Navbar 2.0 (* effect shold be appliend on hover) </h1>
+            <video autoplay loop muted play-inline src="./Assets/Components/navabar-2.mp4"></video>
+        </div>
+        <div class="grid-item" data-aos="fade-right"  data-aos-offset="350"
+        data-aos-easing="ease-in-sine">
+            <h1>Image carosuel transition 2.0 </h1>
+            <video autoplay loop muted play-inline src="./Assets/Components/image-carosuel_2.mp4"></video>
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <div class="landing-title" data-aos="fade-right"  data-aos-offset="350"
+    data-aos-easing="ease-in-sine">
+		<h1>Task:- Landing Page (20 pts)</h1>
+		<ul>
+			<li>create this landing page</li>
+			<li>change the logo with our programing club's logo ( *in asset folder logo.png )</li>
+			<li>change:-  "Bob Meijer" with "Programing Club"</li>
+			<li>change netherlands's flag with India's flag also name</li>
+			<li> In about me section and Google ads serveice sect third card is example of hover effect</li>
+		</ul>
+        <div>
+            <a href="./Assets/Landing-page/assets.zip" download class="download">Download assets</a>
+        </div>
+	</div>
+	<div id="color-palate" data-aos="fade-up"  data-aos-offset="350"
+    data-aos-easing="ease-in-sine">
+			<div class="color-block" color="#2F3349;" style="--color : #2F3349;"></div>
+			<div class="color-block" color="#54595F;" style="--color : #54595F;"></div>
+			<div class="color-block" color="#2F3349;" style="--color : #2F3349;"></div>
+			<div class="color-block" color="#2F3349;" style="--color : #2F3349;"></div>
+			<div class="color-block" color="#E0F1F1;" style="--color : #E0F1F1;"></div>
+			<div class="color-block" color="#E6EBE4;" style="--color : #E6EBE4;"></div>
+			<div class="color-block" color="#FEF3DF;" style="--color : #FEF3DF;"></div>
+			<div class="color-block" color="#D7C49E;" style="--color : #D7C49E;"></div>
+			<div class="color-block" color="#BBCF9B;" style="--color : #BBCF9B;"></div>
+			<div class="color-block" color="#A5BABB;" style="--color : #A5BABB;"></div>
+			<div class="color-block" color="#171931;" style="--color : #171931;"></div>
+			<div class="color-block" color="#FFFFFF;" style="--color : #FFFFFF;"></div>
+			<div class="color-block" color="#F5F5F5;" style="--color : #F5F5F5;"></div>
+	</div>
+    <br>
+    <br>
+	<img src="./Assets/Landing-page/assets/screen-shots/1.png" alt="" class="img" width="100%">
+	<img src="./Assets/Landing-page/assets/screen-shots/2.png" alt="" class="img" width="100%">
+	<img src="./Assets/Landing-page/assets/screen-shots/3.png" alt="" class="img" width="100%">
+	<img src="./Assets/Landing-page/assets/screen-shots/4.png" alt="" class="img" width="100%">
+	<img src="./Assets/Landing-page/assets/screen-shots/5.png" alt="" class="img" width="100%">
+	<img src="./Assets/Landing-page/assets/screen-shots/6.png" alt="" class="img" width="100%">
+	<img src="./Assets/Landing-page/assets/screen-shots/7.png" alt="" class="img" width="100%">
+	<img src="./Assets/Landing-page/assets/screen-shots/8.png" alt="" class="img" width="100%">
+	<img src="./Assets/Landing-page/assets/screen-shots/9.png" alt="" class="img" width="100%">
+	<img src="./Assets/Landing-page/assets/screen-shots/10.png" alt="" class="img" width="100%">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+         AOS.init({
+            duration:1500,
+         });
+    </script>
 </body>
+
 </html>
