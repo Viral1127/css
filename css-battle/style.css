@@ -21,6 +21,11 @@ video{
     max-width: 320px;
     margin: auto;
 }
+.image{
+    width: 100%;
+    max-width: 320px;
+    margin: auto;
+}
 .desc{
     display: flex;
     align-items: flex-start;
@@ -28,11 +33,6 @@ video{
 .grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-}
-video{
-    width: 100%;
-    max-width: 320px;
-    margin: auto;
 }
 .grid-item{
     margin: 20px;
